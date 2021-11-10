@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-day-3/static/css/main.2366536a.chunk.css",
-    "main.js": "/react-day-3/static/js/main.22fa267d.chunk.js",
-    "main.js.map": "/react-day-3/static/js/main.22fa267d.chunk.js.map",
+    "main.css": "/react-day-3/static/css/main.2724dad3.chunk.css",
+    "main.js": "/react-day-3/static/js/main.e82f98b4.chunk.js",
+    "main.js.map": "/react-day-3/static/js/main.e82f98b4.chunk.js.map",
     "runtime-main.js": "/react-day-3/static/js/runtime-main.1472b959.js",
     "runtime-main.js.map": "/react-day-3/static/js/runtime-main.1472b959.js.map",
     "static/js/2.d234091e.chunk.js": "/react-day-3/static/js/2.d234091e.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.06669807.chunk.js": "/react-day-3/static/js/3.06669807.chunk.js",
     "static/js/3.06669807.chunk.js.map": "/react-day-3/static/js/3.06669807.chunk.js.map",
     "index.html": "/react-day-3/index.html",
-    "static/css/main.2366536a.chunk.css.map": "/react-day-3/static/css/main.2366536a.chunk.css.map",
+    "static/css/main.2724dad3.chunk.css.map": "/react-day-3/static/css/main.2724dad3.chunk.css.map",
     "static/js/2.d234091e.chunk.js.LICENSE.txt": "/react-day-3/static/js/2.d234091e.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/react-day-3/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1472b959.js",
     "static/js/2.d234091e.chunk.js",
-    "static/css/main.2366536a.chunk.css",
-    "static/js/main.22fa267d.chunk.js"
+    "static/css/main.2724dad3.chunk.css",
+    "static/js/main.e82f98b4.chunk.js"
   ]
 }
