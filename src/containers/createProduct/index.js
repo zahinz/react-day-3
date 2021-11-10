@@ -38,6 +38,7 @@ class CreateProduct extends React.Component{
             alert(`Kindly complete the form.`)
         }else {
             products.push(this.state)
+            alert('New car created.')
             console.log(products);
         }
     }
