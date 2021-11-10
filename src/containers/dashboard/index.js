@@ -16,7 +16,7 @@ class Dashboard extends React.Component {
         // console.log(keyword);
 
         return(
-            <div className="bg-gray-100 w-screen flex flex-col items-center mt-12 pt-20">
+            <div className="bg-gray-100 w-screen min-h-screen flex flex-col items-center mt-12 pt-20">
 
                 <div className="w-3/5 flex justify-between">
 
