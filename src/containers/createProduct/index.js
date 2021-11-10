@@ -1,6 +1,7 @@
 import React from "react";
 import { products } from "../../productData";
 import { Link } from "react-router-dom"
+import { Redirect } from "react-router-dom";
 
 class CreateProduct extends React.Component{
     constructor(props) {
@@ -8,7 +9,7 @@ class CreateProduct extends React.Component{
         this.state = {
             id: '',
             name: '',
-            description: '',
+            short_description: '',
             cost: 0
         }
     }
@@ -30,6 +31,7 @@ class CreateProduct extends React.Component{
         const emptyName = this.state.name === ""
         const emptyDesc = this.state.description === ""
         const emptyCost = this.state.cost === ""
+        let newProductCreated = false;
 
         if(result) {
             alert(`ID for number ${this.state.id} is taken. Please use the different ID`)
@@ -39,7 +41,12 @@ class CreateProduct extends React.Component{
         }else {
             products.push(this.state)
             alert('New car created.')
-            console.log(products);
+            console.log(products)
+            newProductCreated = true
+        }
+        
+        if (newProductCreated) {
+            return < Redirect to="react-day-3/dashboard" />
         }
     }
 
@@ -80,7 +87,7 @@ class CreateProduct extends React.Component{
                     type="text" 
                     placeholder="Description"
                     onChange={ (descval) => {
-                        this.setState({description: descval.target.value});
+                        this.setState({short_description: descval.target.value});
                         } }
                     />
 

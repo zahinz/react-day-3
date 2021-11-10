@@ -14,7 +14,7 @@ class CarList extends React.Component {
                     <div className="flex items-center absolute bottom-7 right-10">
                         <p className="mr-4">Market price</p>
 
-                        {/* REACTA ROUTER METHOD 2 */}
+                        {/* REACT ROUTER METHOD 2 */}
                         <Link to={{
                             pathname:`/dashboard/${this.props.link}`,
                             state: this.props.carData,
