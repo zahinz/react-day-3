@@ -7,7 +7,7 @@ class CarList extends React.Component {
             <div className="bg-gray-200 w-3/5 h-72 flex mb-7 rounded-xl overflow-hidden">
                 <div className="bg-white h-full w-96">
                     <div className="h-full w-full bg-no-repeat bg-center bg-cover hover:bg-contain" style={{ backgroundImage: `url(${this.props.carImage})`}}></div>
-                    {/* <img src={this.props.carImage} alt="" className="h-full w-auto"/> */}
+                    <img src={this.props.carImage} alt="" className="h-full w-auto"/>
                 </div>
                 <div className="flex flex-col justify-start px-12 relative w-3/4">
                     <p className="mt-14 font-bold text-2xl">{this.props.carName}</p>
